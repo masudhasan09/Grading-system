@@ -61,7 +61,7 @@ int main() {
   float subjectPercentage;
   char subjectGrade;
 
-  subjectPercentage = (float) physics / 100 * 100;
+  subjectPercentage = (float) physics / 50 * 100;
   subjectGrade = subjectPercentage >= 50 ? 'A' : 
    (subjectPercentage >= 40 ? 'B': 
    (subjectPercentage >= 30 ? 'C':
